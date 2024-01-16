@@ -1,0 +1,77 @@
+body {
+  height: 100vh;
+  background-image: url("https://userscontent2.emaze.com/images/96b1cdaa-29d8-49fd-84ef-90b3f8e430c7/443df1a47397df54705ad9a3f5bc5390.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.container {
+  text-align: center;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.085);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.form-label {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.btn {
+  font-size: 1rem;
+  margin-top: 12px;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+#previousName {
+  font-size: 1rem;
+  color: #fff;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+#countdown-container {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin: 20px auto;
+}
+
+.countdown-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #ca25b78d;
+  z-index: 1;
+}
+
+.countdown-timer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fbfdfd;
+  z-index: 2;
+  transition: transform 1s ease-in-out;
+}
+
+.countdown-timer:hover {
+  transform: scale(1.1);
+}
